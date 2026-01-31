@@ -2,7 +2,13 @@
   "name": "auto360-web-admin",
   "private": true,
   "version": "0.1.0",
+
+  "engines": {
+    "node": "18.x"
+  },
+
   "scripts": {
+
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
