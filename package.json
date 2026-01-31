@@ -15,7 +15,7 @@
   },
 
   "dependencies": {
-    "next": "15.5.7",
+    "next": "15.5.11",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "@supabase/supabase-js": "^2.49.1",
@@ -35,6 +35,13 @@
     "postcss": "^8.4.49",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.16.0",
-    "eslint-config-next": "15.5.7"
+    "eslint-config-next": "15.5.11"
+  },
+
+  "overrides": {
+    "next": "15.5.11",
+    "@next/swc-linux-x64-gnu": "15.5.11",
+    "@next/swc-darwin-x64": "15.5.11",
+    "@next/swc-win32-x64-msvc": "15.5.11"
   }
 }
